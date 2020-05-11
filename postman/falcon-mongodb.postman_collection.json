@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "608286be-0452-399d-4070-bde8d7d913de",
-		"name": "timap",
+		"name": "Falcon-MongoDB",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -53,7 +53,7 @@
 							"raw": "{\n    \"username\": \"Rifle\",\n    \"first_name\": \"Alberto\",\n    \"last_name\" : \"Esparta\"\n}"
 						},
 						"url": {
-							"raw": "http://localhost:9009/players/5eb7ddee65ad3e2e9b5b23ca",
+							"raw": "http://localhost:9009/players/5eb8a4611b287fa43a50c581",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -61,7 +61,7 @@
 							"port": "9009",
 							"path": [
 								"players",
-								"5eb7ddee65ad3e2e9b5b23ca"
+								"5eb8a4611b287fa43a50c581"
 							]
 						}
 					},
