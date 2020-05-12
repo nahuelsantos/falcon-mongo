@@ -79,3 +79,27 @@ To delete an existing player, do a **DELETE** request to
 http://localhost:9009/players/{_id}
 ```
     
+#### Troubleshooting
+
+##### Solving standard_init_linux error
+If you run this in a Windows environment and you get this error:
+```sh
+standard_init_linux.go:211: exec user process caused "no such file or directory"
+```
+you may need to set up your git to run the follwing script in order to avoid git to rewrite the End of Lines in the files.
+```sh
+git config core.eol lf
+git config core.autocrlf input
+```
+
+Or you can set it up globally 
+```sh
+git config --global core.eol lf
+git config --global core.autocrlf input
+```
+
+##### If you get an error while trying to start the backend container like:
+```sh
+ERROR: for backend  Cannot create container for service backend: status code not OK but 500: {"Message":"Unhandled exception: Drive has not been shared"}
+```
+If you are in Windows, you need to enable file sharing between your host and the container by going right click in Docker's icon in system tray and Settings > Resources > File Sharing
