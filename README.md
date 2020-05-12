@@ -46,9 +46,9 @@ Example JSON body
 ```json
 {
     "username": "BestPlayer",
-    "email": "bestplayer@personalemail.com",
-    "first_name": "Anibal",
-    "last_name": "Fernandez",
+    "email": "jd@mail.com",
+    "first_name": "John",
+    "last_name": "Doe",
     "phone": "+0118796353",
     "date_of_birth": "1984-02-29 10:10:10",
     "gender": "M"
@@ -65,9 +65,9 @@ Example JSON
 
 ```json
 {
-    "first_name": "Cristina",
-    "last_name": "Fernández",
-    "phone": "+0118796353",
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "phone": "+0118436353",
     "date_of_birth": "1953-02-19 10:10:10",
     "gender": "F"
 }
