@@ -6,9 +6,9 @@ The following application is just an example on running a [Falcon API](https://f
 #### Description
 
 This application creates and runs 3 docker containers:
-    * Falcon API running on port 9009. Gunicorn serves as web server.
-    * Mongo database running in default port 27017
-    * Mongo Express web based mongo client running on port 8081
+* Falcon API running on port 9009. Gunicorn serves as web server.
+* Mongo database running in default port 27017
+* Mongo Express web based mongo client running on port 8081
 
 To run the API just run
 
