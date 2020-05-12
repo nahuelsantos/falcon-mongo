@@ -10,4 +10,6 @@ RUN pip install -r /usr/src/backend/requirements.txt
 COPY ./app  /usr/src/backend/app
 COPY docker-entrypoint.sh /usr/src/backend/scripts/docker-entrypoint.sh
 
+RUN chmod +x /usr/src/backend/scripts/docker-entrypoint.sh
+
 ENTRYPOINT ["/usr/src/backend/scripts/docker-entrypoint.sh"]

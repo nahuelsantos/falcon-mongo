@@ -79,7 +79,7 @@ To delete an existing player, do a **DELETE** request to
 http://localhost:9009/players/{_id}
 ```
     
-#### Troubleshooting
+#### Troubleshooting 
 
 ##### Solving standard_init_linux error
 If you run this in a Windows environment and you get this error:
